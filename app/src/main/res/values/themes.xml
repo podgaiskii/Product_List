@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProductList" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/orange_400</item>
+        <item name="colorPrimaryVariant">@color/orange_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange_400</item>
+        <item name="colorSecondaryVariant">@color/orange_600</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/orange_400</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/orange_400</item>
+        <item name="colorControlNormal">@color/light_gray_text</item>
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="colorControlHighlight">@color/pink</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
